@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename=""
+           line_no="-1"
+           routine="std::call_once&lt;sycl::_V1::detail::pi::initialize(void)::$_1&gt;(std::once_flag&amp;, sycl::_V1::detail::pi::initialize(void)::$_1&amp;&amp;)::{lambda()#2}::__invoke"
+           is_vectorized="1"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="521"
+           priority="0">
+           <recommendation id="rec_serialized_user_function_try_simd_c" title="Vectorize serialized function(s) inside loop" confidence="3" gain="-1"/>
+  </hotspot>
+  <hotspot filename=""
+           line_no="-1"
+           routine="piPlatformsGet"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="27"
+           priority="0">
+           <recommendation id="rec_system_functions_move_c" title="Remove system function call(s) inside loop" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename=""
+           line_no="-1"
+           routine="khrIcdOsVendorsEnumerate"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="43"
+           priority="0">
+           <recommendation id="rec_system_functions_move_c" title="Remove system function call(s) inside loop" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename=""
+           line_no="-1"
+           routine="piEventsWait"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="104"
+           priority="0">
+           <recommendation id="rec_system_functions_move_c" title="Remove system function call(s) inside loop" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="\home\u185693\test_folder\oneAPI-samples\DirectProgramming\C++SYCL\N-BodyMethods\Nbody\src\GSimulation.cpp"
+           line_no="125"
+           routine="GSimulation::Start"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="187"
+           priority="0">
+           <recommendation id="rec_type_conversions_smallest_c" title="Use the smallest data type" confidence="1" gain="-1"/>
+  </hotspot>
+</IntelParallelAdvisorSummary >

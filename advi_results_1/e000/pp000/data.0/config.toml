@@ -1,0 +1,16 @@
+Frequency = "1.7 GHz"
+XVE_count = 448
+Memory_BW = "1.311 TB/s"
+PCIe_BW = "26 GB/s"
+SLM_BW = 0
+SLM_size = 0
+L1_BW = "48.742 TB/s"
+L1_size = "28 MB"
+L3_BW = "6.093 TB/s"
+L3_size = "204 MB"
+GTI_BW = "1.741 TB/s"
+XVE_per_core = 8
+Memory_subsystem = [ "L1", "L3", "GTI", "HBM",]
+device_name = "XeHPC XT 448"
+device_id = "pvc_xt_448xve"
+platform = "gen12p8xt"

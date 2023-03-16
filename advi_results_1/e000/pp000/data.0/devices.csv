@@ -1,0 +1,4 @@
+id,type,type_id,shown_name,description,is_projection
+baseline_cpu,host,1,Baseline CPU,11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz,0
+baseline_gpu,unknown,0,Baseline GPU,Intel (R) Display controller: Intel Corporation Device 0x9a60,0
+pvc_xt_448xve,discrete,3,XeHPC XT 448,Intel(R) Ponte Vecchio XT 448 XVE,1

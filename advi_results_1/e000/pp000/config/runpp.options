@@ -1,0 +1,12 @@
+-r
+/home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/advi_results_1/e000/pp000
+-quiet
+--accelerator=gen
+--config=pvc_xt_448xve
+--assume-ndim-dependency
+--no-assume-dependencies
+--check-profitability
+--loop-filter-threshold=0.02
+--small-node-filter=0
+--count-send-latency=all
+--cpu-scale-factor=1

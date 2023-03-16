@@ -1,0 +1,9 @@
+region_id,estimation_id,name,time
+672,0,data_tax_read,0.0
+672,0,data_tax_write,0.0
+672,0,data_tax,0.0
+672,0,launch_tax,6.761176470588236e-06
+672,0,offload_tax,6.761176470588236e-06
+672,0,data_tax_read_no_reuse,0.0
+672,0,data_tax_write_no_reuse,0.0
+672,0,data_tax_no_reuse,0.0

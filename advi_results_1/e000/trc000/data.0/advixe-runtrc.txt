@@ -1,0 +1,10 @@
+
+=== Start: [2023/03/15 10:00:22] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/advi_results_1/e000/trc000/trc000.advixe 
+Application exit code: 0 
+Result file: /home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/advi_results_1/e000/trc000/trc000.advixe 
+Analysis completed
+=== End: [2023/03/15 10:01:00] === 

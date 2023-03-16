@@ -1,0 +1,13 @@
+-r
+/home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/advi_results/e000/trc000
+-quiet
+-cs-file
+/home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/advi_results/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--jit-profiling
+--target-gpu=0:0:2.0
+--
+/home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/build/src/nbody

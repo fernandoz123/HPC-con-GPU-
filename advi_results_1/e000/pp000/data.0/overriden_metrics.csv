@@ -1,0 +1,45 @@
+region_id,estimation_id,overriden_name,overriden_value,specified_by,original_value
+9,0,dependent_iterations_distance,inf,assumed,inf
+9,0,has_dependency,False,assumed,True
+9,0,dependency_type,Parallel: Assumed,assumed,
+9,0,dependency_key,parallel_assumed,assumed,
+6,0,dependent_iterations_distance,inf,assumed,inf
+6,0,has_dependency,False,assumed,True
+6,0,dependency_type,Parallel: Assumed,assumed,
+6,0,dependency_key,parallel_assumed,assumed,
+59,0,dependent_iterations_distance,inf,assumed,inf
+59,0,has_dependency,False,assumed,True
+59,0,dependency_type,Parallel: Assumed,assumed,
+59,0,dependency_key,parallel_assumed,assumed,
+257,0,dependent_iterations_distance,inf,assumed,inf
+257,0,has_dependency,False,assumed,True
+257,0,dependency_type,Parallel: Assumed,assumed,
+257,0,dependency_key,parallel_assumed,assumed,
+65,0,dependent_iterations_distance,inf,assumed,inf
+65,0,has_dependency,False,assumed,True
+65,0,dependency_type,Parallel: Assumed,assumed,
+65,0,dependency_key,parallel_assumed,assumed,
+1163,0,dependent_iterations_distance,inf,assumed,inf
+1163,0,has_dependency,False,assumed,True
+1163,0,dependency_type,Parallel: Assumed,assumed,
+1163,0,dependency_key,parallel_assumed,assumed,
+1164,0,dependent_iterations_distance,inf,assumed,inf
+1164,0,has_dependency,False,assumed,True
+1164,0,dependency_type,Parallel: Assumed,assumed,
+1164,0,dependency_key,parallel_assumed,assumed,
+208,0,dependent_iterations_distance,inf,assumed,inf
+208,0,has_dependency,False,assumed,True
+208,0,dependency_type,Parallel: Assumed,assumed,
+208,0,dependency_key,parallel_assumed,assumed,
+672,0,dependent_iterations_distance,inf,assumed,inf
+672,0,has_dependency,False,assumed,True
+672,0,dependency_type,Parallel: Assumed,assumed,
+672,0,dependency_key,parallel_assumed,assumed,
+509,0,dependent_iterations_distance,inf,assumed,inf
+509,0,has_dependency,False,assumed,True
+509,0,dependency_type,Parallel: Assumed,assumed,
+509,0,dependency_key,parallel_assumed,assumed,
+678,0,dependent_iterations_distance,inf,assumed,inf
+678,0,has_dependency,False,assumed,True
+678,0,dependency_type,Parallel: Assumed,assumed,
+678,0,dependency_key,parallel_assumed,assumed,

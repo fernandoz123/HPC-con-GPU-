@@ -1,0 +1,5 @@
+Info: Results will be stored at '/home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/advi_results_1/e000/pp000/data.0'. See interactive HTML report in '/home/u185693/test_folder/oneAPI-samples/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/advi_results_1/e000/report'
+Info: Selected accelerator to analyze: Intel(R) Ponte Vecchio XT 448 XVE.
+Info: Baseline Host: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz, GPU: Intel (R) Display controller: Intel Corporation Device 0x9a60.
+Info: Binary Name: 'nbody'.
+Warning: Skip the unsupported instruction. Performance estimation may be inaccurate.

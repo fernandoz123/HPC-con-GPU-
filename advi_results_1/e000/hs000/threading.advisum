@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="\home\u185693\test_folder\oneAPI-samples\DirectProgramming\C++SYCL\N-BodyMethods\Nbody\src\GSimulation.cpp"
+           line_no="125"
+           routine="GSimulation::Start"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="8.489990E+00"
+           trip_counts="20"
+           func_instance="187"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="piEventsWait"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="8.389993E+00"
+           trip_counts="1"
+           func_instance="104"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="sycl::_V1::detail::platform_impl::get_platforms"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="6.100098E-01"
+           trip_counts=""
+           func_instance="536"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="khrIcdVendorsEnumerateEnv"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.100000E-01"
+           trip_counts=""
+           func_instance="23"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="khrIcdOsVendorsEnumerate"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.000098E-01"
+           trip_counts=""
+           func_instance="43"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

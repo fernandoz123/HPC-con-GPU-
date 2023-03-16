@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename=""
+           line_no="-1"
+           routine="__tcf_0"
+           is_vectorized="0"
+           self_time="1.000000E-02"
+           total_time="1.000000E-02"
+           trip_counts="4096"
+           func_instance="215"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="khrIcdVendorsEnumerateEnv"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.100000E-01"
+           trip_counts=""
+           func_instance="23"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="khrIcdOsVendorsEnumerate"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.000098E-01"
+           trip_counts=""
+           func_instance="43"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="piEventsWait"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="8.389993E+00"
+           trip_counts="1"
+           func_instance="104"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="-1"
+           routine="piPlatformsGet"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts="1"
+           func_instance="27"
+           priority="0"/>
+</IntelParallelAdvisorSummary >
